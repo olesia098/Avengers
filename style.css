@@ -1,0 +1,613 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500family=Roboto:wght@400;700;900&display=swap");
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  height: auto;
+  width: 1600px;
+  background: url("./images/bg.png") no-repeat;
+  background-color: #eaeaea;
+}
+
+.container {
+  margin-left: 272px;
+  margin-right: 99px;
+}
+
+/* это навбар */
+.nav {
+  height: 107px;
+  display: flex;
+  align-items: center;
+}
+
+.nav a {
+  text-decoration: none;
+  color: #1e1e1e;
+  opacity: 0.6000000238418579;
+}
+
+.nav a:first-child {
+  text-decoration: none;
+  color: #00029c;
+  opacity: 1;
+}
+
+.nav a:hover {
+  color: red;
+}
+
+.list2 li {
+  margin-left: 20px;
+}
+
+.list {
+  display: flex;
+  flex-direction: row;
+  font-size: 14px;
+  gap: 30px;
+  margin-left: 59px;
+  margin-right: 196px;
+  list-style-type: none;
+  color: #1e1e1e;
+  font-weight: 500;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+}
+
+.list2 {
+  display: flex;
+  flex-direction: row;
+  color: #1e1e1e;
+  list-style-type: none;
+  margin: 0 76px;
+}
+
+.nav img:first-child {
+  margin-left: 99px;
+}
+
+.list2 a:last-child {
+  margin-left: 7px;
+}
+/* конец навбара */
+
+/* начало Эркин 1 */
+.main-container-1 {
+  width: 1228px;
+  height: 476px;
+  margin: 144px 0 154px 273px;
+}
+.middle-container-1 {
+  width: 1228px;
+  height: 75px;
+}
+.middle-container-1 h1 {
+  font-weight: 500;
+  font-size: 75px;
+  line-height: 97.5px;
+  color: #00029c;
+}
+.middle-container-2 {
+  width: 1228px;
+  height: 146px;
+  margin-top: 24px;
+  display: flex;
+}
+.erkin-p1 {
+  width: 572px;
+  height: 122px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 36.4px;
+  margin-top: 24px;
+  margin-left: 0;
+  color: #000000;
+}
+.erkin-p2 {
+  width: 573px;
+  height: 114px;
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  margin-top: 25px;
+  margin-left: 20px;
+  color: #000000;
+}
+.erkin-button {
+  width: 260px;
+  height: 60px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #191ba6;
+  border-color: #1e1e1e;
+  border-radius: 30px;
+  margin-top: 68px;
+  margin-left: 0px;
+  font-weight: 400;
+  font-size: 20px;
+}
+.erkin-button:hover {
+  background-color: #ffffff;
+  color: #00029c;
+  border: 2px solid #191ba6;
+}
+.erkin-img {
+  margin-top: 52px;
+}
+
+.middle-container-1 h1 {
+  animation-name: pulsing;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+
+@keyframes pulsing {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* конец Эркин 1 */
+
+/* начало Эркин 2 */
+
+.advantage > p {
+  color: #00029c;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  margin-bottom: 41px;
+}
+
+.advantage {
+  margin-bottom: 131px;
+}
+
+.container_advantage {
+  max-width: 1222px;
+  height: 306px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border-radius: 15px;
+}
+
+.container_advantage div {
+  width: 394px;
+  height: 306px;
+  border-radius: 15px;
+  background: #ffffff;
+  padding: 60px 22px 50px 50px;
+}
+
+.container_advantage img {
+  margin-bottom: 40px;
+}
+
+.container_advantage p {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 130%;
+  max-width: 313px;
+}
+
+/* конец Эркин 2 */
+
+/* начало Олеся */
+
+.services__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.services__text p {
+  margin-left: 0;
+}
+
+.services__text h2 {
+  font-size: 80px;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.services__text p:last-child {
+  width: 809px;
+  font-size: 32px;
+  font-weight: 500;
+  margin-bottom: 92px;
+}
+
+.assets {
+  width: 1222px;
+  height: 300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  margin-bottom: 50px;
+}
+
+.investments {
+  width: 1222px;
+  height: 300px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+}
+
+.right {
+  margin: 66px;
+}
+
+.right li {
+  font-size: 22px;
+  font-weight: 500px;
+  line-height: 28.6px;
+  max-width: 835px;
+  opacity: 0.8;
+  margin-bottom: 5px;
+  list-style-type: none;
+}
+
+.right h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: start;
+  font-size: 32px;
+  margin-bottom: 15px;
+  margin-left: 0;
+}
+
+.assets_left {
+  display: flex;
+  justify-content: center;
+  margin-left: 42px;
+  margin-right: 0px;
+}
+
+.investments_left {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+  margin-left: 33px;
+  margin-right: 45px;
+}
+
+.assets_left img:last-child {
+  margin-left: 39px;
+}
+
+.investments img:first-child {
+  width: 204px;
+  height: 204px;
+  margin-top: 15px;
+}
+.investments_left #line {
+  margin-right: 37px;
+}
+
+.right .list_items {
+  list-style-type: none;
+}
+/* конец Олеся */
+
+/* начало Анна */
+.uslugi {
+  height: 300px;
+  width: 1222px;
+  background-color: white;
+  border-radius: 15px;
+  border: white;
+  margin-left: 0;
+  margin-top: 50px;
+  display: flex;
+}
+
+.uslugi_img {
+  width: 23%;
+  height: 300px;
+}
+
+.uslugi_img #line7 {
+  padding-top: 20px;
+  padding-left: 25px;
+}
+
+.uslugi_img #law {
+  padding-left: 37px;
+  padding-bottom: 30px;
+}
+
+.uslugi_description li {
+  list-style-type: none;
+}
+
+.services li::before {
+  content: url("./images/Polygon\ 7.svg");
+  margin-right: 10px;
+}
+
+.uslugi_description {
+  margin: auto;
+}
+
+.uslugi_description h2 {
+  font-size: 32px;
+  font-weight: 500px;
+  line-height: 41.6px;
+  width: 618px;
+  margin-bottom: 20px;
+  margin-left: 0;
+}
+
+.uslugi_description li {
+  font-size: 22px;
+  font-weight: 500px;
+  line-height: 28.6px;
+  max-width: 835px;
+  opacity: 0.8;
+  margin-bottom: 5px;
+}
+
+.blue {
+  width: 1222px;
+  height: 156px;
+  background-color: #00029c;
+  border-radius: 20px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  margin-top: 50px;
+  margin-bottom: 150px;
+  margin-left: 0;
+}
+
+.blue h2 {
+  color: white;
+  font-size: 32px;
+  font-weight: 500px;
+}
+
+.blue button {
+  border-radius: 30px;
+  border-color: white;
+  width: 240px;
+  height: 60px;
+  font-weight: 400px;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  background-color: #00029c;
+}
+
+.blue button:hover {
+  background-color: #ffffff;
+  color: #00029c;
+  border: 2px solid #191ba6;
+}
+
+.partners p {
+  margin-bottom: 50px;
+}
+
+.partners_img {
+  display: flex;
+  justify-content: space-between;
+  height: 67px;
+  width: 1222px;
+  align-items: center;
+  filter: grayscale(1);
+}
+
+.partners_img #img1 {
+  width: 217px;
+  height: 42px;
+}
+
+.partners_img #img2 {
+  width: 193px;
+  height: 72px;
+}
+
+.partners_img #img3 {
+  width: 152px;
+  height: 99px;
+}
+.partners_img #img4 {
+  width: 190px;
+  height: 19px;
+}
+
+.partners_img #img5 {
+  width: 197px;
+  height: 57px;
+}
+
+.partners_img #img6 {
+  width: 121px;
+  height: 59px;
+}
+
+.partners p {
+  font-weight: 500px;
+  font-size: 14px;
+  letter-spacing: 4px;
+  color: #01049b;
+}
+
+.partners p:last-child {
+  margin-bottom: 50px;
+  margin-top: 138px;
+}
+
+/* конец Анна*/
+
+/* начало Самаган */
+.section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  width: 1224px;
+  height: auto;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 396px;
+  height: auto;
+}
+
+.photo {
+  width: 396px;
+  height: 282px;
+  transition-property: width;
+}
+
+.photo:hover {
+  width: 406px;
+  height: auto;
+}
+
+.cards img {
+  width: 100%;
+  height: 100%;
+}
+#images {
+  display: flex;
+  width: 394px;
+  height: 262px;
+  border-radius: 15%;
+}
+.card p {
+  display: flex;
+  color: #000000;
+  font-size: 32px;
+  font-family: "Manrope";
+  margin: 15px 0 0 0;
+  width: 267px;
+  height: 75px;
+}
+
+.card p:last-child {
+  color: #000;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  width: 394px;
+  height: 38px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+/* конец Самаган */
+
+/* это футер */
+.map p {
+  margin-bottom: 40px;
+  margin-top: 78px;
+  margin-left: 277px;
+  color: #01049b;
+  font-family: Manrope;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+}
+
+.foot__iner {
+  width: 1600px;
+  margin: 0 auto;
+  height: 211px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #00029c;
+}
+
+.foot__iner a {
+  text-decoration: none;
+  color: #ffffff;
+  opacity: 0.6000000238418579;
+}
+
+.foot__inner_list {
+  display: flex;
+  gap: 30px;
+  opacity: 0.6000000238418579;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2.8px;
+  text-transform: uppercase;
+  margin-left: 59px;
+  margin-right: 23px;
+  color: #fff;
+}
+
+.language {
+  display: flex;
+  flex-direction: row;
+  color: #fff;
+  margin: 0 27px 0 36px;
+}
+
+.language p:last-child {
+  margin-left: 20px;
+}
+
+.foot__iner img:first-child {
+  margin-left: 100px;
+}
+
+/* Всплывающее окно */
+
+.photo:hover::after {
+  width: 80px;
+  height: 70px;
+  content: attr(data-title);
+  position: absolute;
+  left: 20%;
+  top: 30%;
+  z-index: 1;
+  background: rgba(198, 198, 198, 0.9);
+  font-family: "Monrope", sans-serif;
+  font-size: 11px;
+  padding: 5px 10px;
+  border: 1px solid #333;
+}
